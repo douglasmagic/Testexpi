@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{3A4F8E30-652B-4A46-8E7C-2B98FDEBFACF}</GUID>
+			<ID>1</ID>
+			<Order>289</Order>
+			<Name>F.XML_IN</Name>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D91D6707-9734-429E-B0B7-545A93A7C06D}</GUID>
+			<ID>2</ID>
+			<Order>290</Order>
+			<Name>F.XML_OUT</Name>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{FAAB5623-8B38-405B-A8FB-B6B46C437253}</GUID>
+			<ID>3</ID>
+			<Order>291</Order>
+			<Name>F.BARRAVOLUME</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>32</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{395385B3-EE55-4E7D-99DC-B8AF79FD7B54}</GUID>
+			<ID>4</ID>
+			<Order>292</Order>
+			<Name>F.CODIGORASTREIO</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>25</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{271A7AB4-AC1A-4159-9264-7257F96C40D7}</GUID>
+			<ID>5</ID>
+			<Order>293</Order>
+			<Name>F.RETURN_MSG</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>1000</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

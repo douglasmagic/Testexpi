@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+		
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="DataBaseSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>D1</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>DataBase</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_RASTREIO_VOLUME</Identifier>
+							<Description></Description>
+							<FieldName>ECT_SILT_SILOG_DB_OWNER_SILT.INT_RASTREIO_VOLUME</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>   0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_RASTREIO_VOLUME/INT_RASTREIO_VOLUME.BARRAVOLUME</Identifier>
+							<Description></Description>
+							<FieldName>INT_RASTREIO_VOLUME.BARRAVOLUME</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMSwne0ZBQUI1NjIzLThCMzgtNDA1Qi1BOEZCLUI2QjQ2QzQzNzI1M30nLDAsMCk8IyElQCQ+ICk=</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>VARCHAR2</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																				<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>INT_RASTREIO_VOLUME.BARRAVOLUME</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_RASTREIO_VOLUME/INT_RASTREIO_VOLUME.CODIGORASTREIO</Identifier>
+							<Description></Description>
+							<FieldName>INT_RASTREIO_VOLUME.CODIGORASTREIO</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>25</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMSwnezM5NTM4NUIzLUVFNTUtNEU3RC05OURDLUI4QUY3OUZEN0I1NH0nLDAsMCk8IyElQCQ+ICk=</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>VARCHAR2</ExternalFieldType>
+																						<ExternalFieldPicture>25</ExternalFieldPicture>
+														<UserPicture>25</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																				<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>INT_RASTREIO_VOLUME.CODIGORASTREIO</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+										<DB>
+					<DBResource>SILT</DBResource>
+					<DynamicSQL>false</DynamicSQL>
+										<Disconnect>true</Disconnect>
+																									<SQLStatement>
+								<ExpressionVal>SU5TRVJUIElOVE8gJUVDVF9TSUxUX1NJTE9HX0RCX09XTkVSX1NJTFQlLklOVF9SQVNUUkVJT19WT0xVTUUgKElOVF9SQVNUUkVJT19WT0xVTUUuQkFSUkFWT0xVTUUgLElOVF9SQVNUUkVJT19WT0xVTUUuQ09ESUdPUkFTVFJFSU8p</ExpressionVal>
+								<ExpectedType>B</ExpectedType>
+								<Direction>I</Direction>
+					</SQLStatement>
+					<GenerateTableName>%ECT_SILT_SILOG_DB_OWNER_SILT%.INT_RASTREIO_VOLUME</GenerateTableName>
+				</DB>
+																																			
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

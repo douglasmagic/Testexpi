@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+		
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="DataBaseSchema">
+		<SchemaID>4</SchemaID>
+		<Order>1</Order>
+		<Name>PEDIDO</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>DataBase</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO</Identifier>
+							<Description></Description>
+							<FieldName>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>   0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO/PED_IN_STATUS</Identifier>
+							<Description></Description>
+							<FieldName>PED_IN_STATUS</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezQ1MkNEM0U1LTdFQzAtNDQ3RS04NEE4LTRCMkM5MDIxOURBQX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>N</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>NUMBER</ExternalFieldType>
+																						<ExternalFieldPicture>3</ExternalFieldPicture>
+														<UserPicture>N3</UserPicture>
+							<isNillable>true</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>TSP_CO_SITUACAO_WMS</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+										<DB>
+					<DBResource>SILOG</DBResource>
+					<DynamicSQL>false</DynamicSQL>
+																									<SQLStatement>
+								<ExpressionVal>VVBEQVRFICVFQ1RfU0lMVF9TSUxPR19EQl9PV05FUl9TSUxPRyUuVldfUEVESURPDQpTRVQgVFNQX0NPX1NJVFVBQ0FPX1dNUz08IT9QRURfSU5fU1RBVFVTPyE+DQpXSEVSRSBQRURfTlVfU0VRVUVOQ0lBTD08P0YuT1JERVJfTlVNPz4=</ExpressionVal>
+								<ExpectedType>B</ExpectedType>
+								<Direction>I</Direction>
+					</SQLStatement>
+					<GenerateTableName>%ECT_SILT_SILOG_DB_OWNER_SILOG%.VW_PEDIDO
+</GenerateTableName>
+				</DB>
+																																			
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>
