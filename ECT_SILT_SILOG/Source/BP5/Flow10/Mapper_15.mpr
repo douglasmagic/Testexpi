@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>3</SchemaID>
+      <Order>1</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>Record</Identifier>
+          <Description />
+          <FieldName>Record</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/CNPJ_DEPOSITANTE</Identifier>
+          <Description />
+          <FieldName>CNPJ_DEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture />
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"CNPJ_DEPOSITANTE"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/REGIME_FISCAL</Identifier>
+          <Description />
+          <FieldName>REGIME_FISCAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>CHAR</ExternalFieldType>
+          <ExternalFieldPicture>1</ExternalFieldPicture>
+          <UserPicture>1</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"REGIME_FISCAL"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/PESSOA</Identifier>
+          <Description />
+          <FieldName>PESSOA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>CHAR</ExternalFieldType>
+          <ExternalFieldPicture>1</ExternalFieldPicture>
+          <UserPicture>1</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"PESSOA"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/CODIGO</Identifier>
+          <Description />
+          <FieldName>CODIGO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>30</ExternalFieldPicture>
+          <UserPicture>30</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"CODIGO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/NOME</Identifier>
+          <Description />
+          <FieldName>NOME</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>60</ExternalFieldPicture>
+          <UserPicture>60</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"NOME"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/ENDERECO</Identifier>
+          <Description />
+          <FieldName>ENDERECO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>100</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>100</ExternalFieldPicture>
+          <UserPicture>100</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"ENDERECO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/BAIRRO</Identifier>
+          <Description />
+          <FieldName>BAIRRO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>100</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>100</ExternalFieldPicture>
+          <UserPicture>100</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"BAIRRO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/CEP</Identifier>
+          <Description />
+          <FieldName>CEP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>18</ExternalFieldPicture>
+          <UserPicture>18</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"CEP"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/CIDADE</Identifier>
+          <Description />
+          <FieldName>CIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>60</ExternalFieldPicture>
+          <UserPicture>60</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"CIDADE"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/ESTADO</Identifier>
+          <Description />
+          <FieldName>ESTADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>CHAR</ExternalFieldType>
+          <ExternalFieldPicture>2</ExternalFieldPicture>
+          <UserPicture>2</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"ESTADO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/REGIME_ARMAZENAGEM</Identifier>
+          <FieldName>REGIME_ARMAZENAGEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>CHAR</ExternalFieldType>
+          <ExternalFieldPicture>1</ExternalFieldPicture>
+          <UserPicture>1</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"REGIME_ARMAZENAGEM"</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>U0VMRUNUIA0KQ05QSl9ERVBPU0lUQU5URQ0KLFJFR0lNRV9GSVNDQUwNCixQRVNTT0ENCixDT0RJR08NCixOT01FDQosRU5ERVJFQ08NCixCQUlSUk8NCixDRVANCixDSURBREUNCixFU1RBRE8NCixSRUdJTUVfQVJNQVpFTkFHRU0NCkZST00gJUVDVF9TSUxUX1NJTE9HX0RCX09XTkVSX1NJTFQlLlZFX1JFR0lNRV9ERVBPU0lUQU5URV9BRiANCldIRVJFIENOUEpfREVQT1NJVEFOVEUgPSAnPD9GLkNOUEpfREVQT1NJVEFOVEU/Pic=</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILT</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName />
+      </DB>
+    </Schema>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>6</SchemaID>
+      <Order>2</Order>
+      <Name>S2</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>Record</Identifier>
+          <Description />
+          <FieldName>Record</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/NEXTVAL</Identifier>
+          <Description />
+          <FieldName>NEXTVAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N22</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>22</ExternalFieldPicture>
+          <UserPicture>N22</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>NEXTVAL</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>c2VsZWN0ICAlRUNUX1NJTFRfU0lMT0dfREJfT1dORVJfU0lMVCUuc2VxX2FncnVwYWRvcmludGVncmFjYW8ubmV4dHZhbCBmcm9tIGR1YWw=</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILT</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName />
+      </DB>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>4</SchemaID>
+      <Order>1</Order>
+      <Name>D1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>4</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{ED34F527-3ECD-4EA1-A68F-0D3DF409438F}</Identifier>
+          <Description />
+          <FieldName>F.BAIRRO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>100</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>100</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{53A1DC54-B37D-4195-8CB6-07C7329ECD80}</Identifier>
+          <Description />
+          <FieldName>F.CEP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>18</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{AA3AEFA5-785F-4400-88E4-45428C447BA1}</Identifier>
+          <Description />
+          <FieldName>F.CIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>60</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{4A209D7B-7C39-45E1-A855-EB3ECACC10A9}</Identifier>
+          <Description />
+          <FieldName>F.CODIGO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{0A556BFD-24DF-458B-AD6F-5A66290A772D}</Identifier>
+          <Description />
+          <FieldName>F.ENDEREÇO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>100</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>100</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{098E8D61-D55A-4F1F-B881-86EEA33A6974}</Identifier>
+          <Description />
+          <FieldName>F.ESTADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{CB594212-7B7E-48F1-82CC-8C66ADF923F5}</Identifier>
+          <Description />
+          <FieldName>F.NOME</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>60</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{E8FBAEE2-52EA-4398-A739-4618DDEDFBE7}</Identifier>
+          <Description />
+          <FieldName>F.PESSOA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>6e9c31bc-1daa-4447-8ca8-970fe3ced674</Identifier>
+          <FieldName>F.REGIME_ARMAZENAGEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{361B7A7B-43D3-48A4-A79D-84C475511979}</Identifier>
+          <Description />
+          <FieldName>F.REGIME_FISCAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIG9iak9sZE5hbWUgKDwjISVAJD5nZXROb2RlTmFtZSgzL1JlY29yZC9SRUdJTUVfRklTQ0FMKTwjISVAJD4pICk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{ED34F527-3ECD-4EA1-A68F-0D3DF409438F}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{53A1DC54-B37D-4195-8CB6-07C7329ECD80}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{AA3AEFA5-785F-4400-88E4-45428C447BA1}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{4A209D7B-7C39-45E1-A855-EB3ECACC10A9}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{0A556BFD-24DF-458B-AD6F-5A66290A772D}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{098E8D61-D55A-4F1F-B881-86EEA33A6974}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{CB594212-7B7E-48F1-82CC-8C66ADF923F5}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{E8FBAEE2-52EA-4398-A739-4618DDEDFBE7}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>6e9c31bc-1daa-4447-8ca8-970fe3ced674</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{361B7A7B-43D3-48A4-A79D-84C475511979}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>7</SchemaID>
+      <Order>0</Order>
+      <Name>Variable_1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>7</Identifier>
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</Identifier>
+          <FieldName>C.LastSQL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>R2V0UGFyYW0gKCdJQl9TcWxTdG10Jyk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>32000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>32000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>5</SchemaID>
+      <Order>2</Order>
+      <Name>D2</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>5</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</Identifier>
+          <Description />
+          <FieldName>F.SEQUENCE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N10</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>Record</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>4</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/BAIRRO</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{ED34F527-3ECD-4EA1-A68F-0D3DF409438F}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/CEP</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{53A1DC54-B37D-4195-8CB6-07C7329ECD80}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/CIDADE</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{AA3AEFA5-785F-4400-88E4-45428C447BA1}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/CODIGO</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{4A209D7B-7C39-45E1-A855-EB3ECACC10A9}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/ENDERECO</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{0A556BFD-24DF-458B-AD6F-5A66290A772D}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/ESTADO</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{098E8D61-D55A-4F1F-B881-86EEA33A6974}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/NOME</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{CB594212-7B7E-48F1-82CC-8C66ADF923F5}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/PESSOA</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{E8FBAEE2-52EA-4398-A739-4618DDEDFBE7}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/REGIME_FISCAL</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>{361B7A7B-43D3-48A4-A79D-84C475511979}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>5</DestinationIdentifier>
+      <DestinationSchemaID>5</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/NEXTVAL</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</DestinationIdentifier>
+      <DestinationSchemaID>5</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/REGIME_ARMAZENAGEM</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>6e9c31bc-1daa-4447-8ca8-970fe3ced674</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>8</SchemaID>
+      <Order>1</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>8</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{A9F46EE9-57CC-49B9-8094-0CF1FC6A7E3D}</Identifier>
+          <Description />
+          <FieldName>C.BARRAUNITARIA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{CA023B2D-36BD-4D98-BD01-8960C0EBE8E9}</Identifier>
+          <Description />
+          <FieldName>F.CNPJUNIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{34576B65-00C5-49A9-9A89-27D1643A49C6}</Identifier>
+          <Description />
+          <FieldName>F.CNPJ_DEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{F9B98731-2999-454E-9286-7BD6F1916B97}</Identifier>
+          <Description />
+          <FieldName>F.IPE_NU_ITEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{32F2C79F-F4BB-4229-A07A-93F828996EF1}</Identifier>
+          <Description />
+          <FieldName>F.IPE_NU_MATERIAL_DEFINIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{B1DC544A-9106-4943-BB94-01D6980FED67}</Identifier>
+          <Description />
+          <FieldName>F.IPE_TX_MATERIAL_COLETADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{06D69C81-2282-4C7F-BC65-BC28F8EDD4BB}</Identifier>
+          <Description />
+          <FieldName>F.NUMPEDIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{05D720A9-1D12-4224-863F-F4A3DC26CC1E}</Identifier>
+          <FieldName>F.NU_NF</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{3639995B-1E9A-4BAF-AB70-DB60FC99A511}</Identifier>
+          <Description />
+          <FieldName>F.QTD</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N10</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{A9F46EE9-57CC-49B9-8094-0CF1FC6A7E3D}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{CA023B2D-36BD-4D98-BD01-8960C0EBE8E9}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{34576B65-00C5-49A9-9A89-27D1643A49C6}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{F9B98731-2999-454E-9286-7BD6F1916B97}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{32F2C79F-F4BB-4229-A07A-93F828996EF1}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{B1DC544A-9106-4943-BB94-01D6980FED67}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{06D69C81-2282-4C7F-BC65-BC28F8EDD4BB}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{05D720A9-1D12-4224-863F-F4A3DC26CC1E}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{3639995B-1E9A-4BAF-AB70-DB60FC99A511}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>7</SchemaID>
+      <Order>1</Order>
+      <Name>Silt_Items_GMB</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET</Identifier>
+          <Description />
+          <FieldName>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CODIGOINTERNO</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.CODIGOINTERNO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXROb2RlTmFtZSg4L3swNkQ2OUM4MS0yMjgyLTRDN0YtQkM2NS1CQzI4RjhFREQ0QkJ9KTwjISVAJD4gLCcnKSk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.CODIGOINTERNO</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CNPJ_UNIDADE</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.CNPJ_UNIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDgve0NBMDIzQjJELTM2QkQtNEQ5OC1CRDAxLTg5NjBDMEVCRThFOX0pPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.CNPJ_UNIDADE</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CNPJ_DEPOSITANTE</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.CNPJ_DEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDgvezM0NTc2QjY1LTAwQzUtNDlBOS05QTg5LTI3RDE2NDNBNDlDNn0pPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.CNPJ_DEPOSITANTE</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.BARRA</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.BARRA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDgve0E5RjQ2RUU5LTU3Q0MtNDlCOS04MDk0LTBDRjFGQzZBN0UzRH0pPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.BARRA</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.QTDE</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.QTDE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>12</ExternalFieldPicture>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.QTDE</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDINFORMACAOMAT</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.IDINFORMACAOMAT</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>SUYoSVNOVUxMKCA8IyElQCQ+Z2V0Tm9kZU5hbWUoOC97MzJGMkM3OUYtRjRCQi00MjI5LUEwN0EtOTNGODI4OTk2RUYxfSk8IyElQCQ+ICksIE5VTEwoKSwgPCMhJUAkPmdldE5vZGVOYW1lKDgvezMyRjJDNzlGLUY0QkItNDIyOS1BMDdBLTkzRjgyODk5NkVGMX0pPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>12</ExternalFieldPicture>
+          <UserPicture>N12</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.IDINFORMACAOMAT</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.INFORMACAO_MATERIAL</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.INFORMACAO_MATERIAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>SUYoSVNOVUxMKCA8IyElQCQ+Z2V0Tm9kZU5hbWUoOC97QjFEQzU0NEEtOTEwNi00OTQzLUJCOTQtMDFENjk4MEZFRDY3fSk8IyElQCQ+ICkgT1IgVHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDgve0IxREM1NDRBLTkxMDYtNDk0My1CQjk0LTAxRDY5ODBGRUQ2N30pPCMhJUAkPiApPScnLCBOVUxMKCksVHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDgve0IxREM1NDRBLTkxMDYtNDk0My1CQjk0LTAxRDY5ODBGRUQ2N30pPCMhJUAkPiApICk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.INFORMACAO_MATERIAL</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDITEMERP</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.IDITEMERP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXROb2RlTmFtZSg4L3tGOUI5ODczMS0yOTk5LTQ1NEUtOTI4Ni03QkQ2RjE5MTZCOTd9KTwjISVAJD4gLCcnKSk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>500</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>500</ExternalFieldPicture>
+          <UserPicture>500</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.IDITEMERP</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDDOCUMENTOERP</Identifier>
+          <Description />
+          <FieldName>INT_GMB_DET.IDDOCUMENTOERP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>22</ExternalFieldPicture>
+          <UserPicture>N18</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_GMB_DET.IDDOCUMENTOERP</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>SU5TRVJUIElOVE8gJUVDVF9TSUxUX1NJTE9HX0RCX09XTkVSX1NJTFQlLklOVF9HTUJfREVUIA0KKA0KSU5UX0dNQl9ERVQuQ09ESUdPSU5URVJOTyAsDQpJTlRfR01CX0RFVC5DTlBKX1VOSURBREUgLA0KSU5UX0dNQl9ERVQuQ05QSl9ERVBPU0lUQU5URSAsDQpJTlRfR01CX0RFVC5CQVJSQSAsDQpJTlRfR01CX0RFVC5RVERFICwNCklOVF9HTUJfREVULklESU5GT1JNQUNBT01BVCwNCklOVF9HTUJfREVULklORk9STUFDQU9fTUFURVJJQUwsDQpJTlRfR01CX0RFVC5JRElURU1FUlAsDQpJTlRfR01CX0RFVC5JRERPQ1VNRU5UT0VSUA0KKQ==</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILT</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName>%ECT_SILT_SILOG_DB_OWNER_SILT%.INT_GMB_DET 
+</GenerateTableName>
+      </DB>
+    </Schema>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>9</SchemaID>
+      <Order>0</Order>
+      <Name>Variable_1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>9</Identifier>
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</Identifier>
+          <FieldName>C.LastSQL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>R2V0UGFyYW0gKCdJQl9TcWxTdG10Jyk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>32000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>32000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>8</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{06D69C81-2282-4C7F-BC65-BC28F8EDD4BB}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CODIGOINTERNO</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{06D69C81-2282-4C7F-BC65-BC28F8EDD4BB}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDDOCUMENTOERP</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{CA023B2D-36BD-4D98-BD01-8960C0EBE8E9}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CNPJ_UNIDADE</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{34576B65-00C5-49A9-9A89-27D1643A49C6}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.CNPJ_DEPOSITANTE</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{A9F46EE9-57CC-49B9-8094-0CF1FC6A7E3D}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.BARRA</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{3639995B-1E9A-4BAF-AB70-DB60FC99A511}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.QTDE</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{32F2C79F-F4BB-4229-A07A-93F828996EF1}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDINFORMACAOMAT</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{B1DC544A-9106-4943-BB94-01D6980FED67}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.INFORMACAO_MATERIAL</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{F9B98731-2999-454E-9286-7BD6F1916B97}</SourceIdentifier>
+      <SourceSchemaID>8</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_GMB_DET/INT_GMB_DET.IDITEMERP</DestinationIdentifier>
+      <DestinationSchemaID>7</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

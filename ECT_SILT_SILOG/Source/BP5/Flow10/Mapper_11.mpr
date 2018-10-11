@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>7</SchemaID>
+      <Order>1</Order>
+      <Name>SELECT_ITEMS</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>Record</Identifier>
+          <Description />
+          <FieldName>Record</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_QT_ITEM</Identifier>
+          <Description />
+          <FieldName>IPE_QT_ITEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>10</ExternalFieldPicture>
+          <UserPicture>N10</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_QT_ITEM"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_VR_UNITARIO_ITEM</Identifier>
+          <Description />
+          <FieldName>IPE_VR_UNITARIO_ITEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N11.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>13</ExternalFieldPicture>
+          <UserPicture>N11.2</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_VR_UNITARIO_ITEM"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_CO_PRODUTO</Identifier>
+          <Description />
+          <FieldName>IPE_CO_PRODUTO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>60</ExternalFieldPicture>
+          <UserPicture>60</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_CO_PRODUTO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_CO_BARRAS_PRODUTO</Identifier>
+          <Description />
+          <FieldName>IPE_CO_BARRAS_PRODUTO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_CO_BARRAS_PRODUTO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_NU_MATERIAL_DEFINIDO</Identifier>
+          <Description />
+          <FieldName>IPE_NU_MATERIAL_DEFINIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>12</ExternalFieldPicture>
+          <UserPicture>N12</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_NU_MATERIAL_DEFINIDO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_TX_MATERIAL_COLETADO</Identifier>
+          <Description />
+          <FieldName>IPE_TX_MATERIAL_COLETADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_TX_MATERIAL_COLETADO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_NU_ITEM</Identifier>
+          <Description />
+          <FieldName>IPE_NU_ITEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>12</ExternalFieldPicture>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_NU_ITEM"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_NO_PRODUTO</Identifier>
+          <FieldName>IPE_NO_PRODUTO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>120</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>120</ExternalFieldPicture>
+          <UserPicture>120</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_NO_PRODUTO"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_QT_ATENDIDA</Identifier>
+          <FieldName>IPE_QT_ATENDIDA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N9</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>9</ExternalFieldPicture>
+          <UserPicture>N9</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_QT_ATENDIDA"</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>Record/IPE_SG_UNIDADE_MEDIDA</Identifier>
+          <FieldName>IPE_SG_UNIDADE_MEDIDA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>6</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>6</ExternalFieldPicture>
+          <UserPicture>6</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <LogErrorVariable>
+            <ExpectedType>A</ExpectedType>
+            <Direction>O</Direction>
+          </LogErrorVariable>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>"IPE_SG_UNIDADE_MEDIDA"</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>U0VMRUNUIA0KSVBFX1FUX0lURU0gLA0KSVBFX1ZSX1VOSVRBUklPX0lURU0sDQpJUEVfQ09fUFJPRFVUTywNCklQRV9DT19CQVJSQVNfUFJPRFVUTywNCklQRV9OVV9NQVRFUklBTF9ERUZJTklETywNCklQRV9UWF9NQVRFUklBTF9DT0xFVEFETywNCklQRV9OVV9JVEVNDQosSVBFX05PX1BST0RVVE8NCixJUEVfUVRfQVRFTkRJREENCixJUEVfU0dfVU5JREFERV9NRURJREENCkZST00gJUVDVF9TSUxUX1NJTE9HX0RCX09XTkVSX1NJTE9HJS5WV19JVEVNX1BFRElETyANCldIRVJFIFBFRF9OVV9TRVFVRU5DSUFMID0gPD9GLlBLX1RBQkxFPz4=</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILOG</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName />
+      </DB>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="CallFlowSchema">
+      <SchemaID>6</SchemaID>
+      <Order>1</Order>
+      <Name>D1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>CallFlow</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>F11</Identifier>
+          <Description />
+          <FieldName>&gt;&gt;&gt; Insert Items on SILT(BP:SILOG x SILT)</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE1JywwLDApPCMhJUAkPiA9IDA=</ExpressionVal>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{5A936BC9-717E-4448-AB6A-FF5A1BC41C0C}</Identifier>
+          <FieldName>F.CAMPO2</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{53C12F50-636C-4C71-8BF0-537F5397E6BE}</Identifier>
+          <FieldName>F.CAMPO4</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{D9D00B0F-263E-44C4-867A-A79232C8B28C}</Identifier>
+          <FieldName>F.CAMPO5</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{34576B65-00C5-49A9-9A89-27D1643A49C6}</Identifier>
+          <Description />
+          <FieldName>F.CNPJ_DEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3s4RTEwMDk1Qi03Q0UyLTRGMkEtODYyRi1DMzJBOTRFMTAyRDV9JywwLDApPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{CA023B2D-36BD-4D98-BD01-8960C0EBE8E9}</Identifier>
+          <Description />
+          <FieldName>F.CNPJUNIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3s2MEI2NDY2MS02ODVCLTQzRjItQTRDRS1BNjBCOUE0M0M1MjF9JywwLDApPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{DA3DE005-C52C-4886-A9AB-95DC0E30F290}</Identifier>
+          <Description />
+          <FieldName>F.COD_PROD</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIG9iak9sZE5hbWUgKDwjISVAJD5nZXROb2RlTmFtZSg3L1JlY29yZC9JUEVfQ09fUFJPRFVUTyk8IyElQCQ+KSAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>60</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\b5e00ef5-53b4-4383-a42b-8bec80c12966</Identifier>
+          <FieldName>F.IPE_NO_PRODUTO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>120</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>120</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{F9B98731-2999-454E-9286-7BD6F1916B97}</Identifier>
+          <Description />
+          <FieldName>F.IPE_NU_ITEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{32F2C79F-F4BB-4229-A07A-93F828996EF1}</Identifier>
+          <Description />
+          <FieldName>F.IPE_NU_MATERIAL_DEFINIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\642d9724-e18a-4e28-879d-4a2c0d05b559</Identifier>
+          <FieldName>F.IPE_QT_ATENDIDA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N9</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N9</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\cf5e6db9-90c0-4fa4-b94c-7989a49fff3f</Identifier>
+          <FieldName>F.IPE_SG_UNIDADE_MEDIDA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>6</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>6</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{B1DC544A-9106-4943-BB94-01D6980FED67}</Identifier>
+          <Description />
+          <FieldName>F.IPE_TX_MATERIAL_COLETADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{05D720A9-1D12-4224-863F-F4A3DC26CC1E}</Identifier>
+          <Description />
+          <FieldName>F.NU_NF</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0JBNzEyN0E4LUZGQzMtNEVFMy1CMzE0LTU1NzE1RjBCQTU2NH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{06D69C81-2282-4C7F-BC65-BC28F8EDD4BB}</Identifier>
+          <Description />
+          <FieldName>F.NUMPEDIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezU3NEYxQTk0LUNGRUUtNEFCQS05REU5LUI1NjE5NjJBMzkyQ30nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{3639995B-1E9A-4BAF-AB70-DB60FC99A511}</Identifier>
+          <Description />
+          <FieldName>F.QTD</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N10</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\18819b47-7535-40eb-b6db-fe02e7a72bc1</Identifier>
+          <FieldName>F.REGIME_ARMAZENAGEM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnNmU5YzMxYmMtMWRhYS00NDQ3LThjYTgtOTcwZmUzY2VkNjc0JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{4F953FAC-C748-4EF9-A6D3-6DDB38B8D3FE}</Identifier>
+          <Description />
+          <FieldName>F.REGIME_FISCAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3szNjFCN0E3Qi00M0QzLTQ4QTQtQTc5RC04NEM0NzU1MTE5Nzl9JywwLDApPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{C7169BF7-C75A-46FB-AAAA-3FFAF4934EFD}</Identifier>
+          <FieldName>F.SEQUENCE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{8D00DCA6-FFBA-4BBD-AA8C-2AF39A3FB6FD}</Identifier>
+          <Description />
+          <FieldName>F.TOT_VALUE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>b2JqT2xkTmFtZSAoPCMhJUAkPmdldE5vZGVOYW1lKDcvUmVjb3JkL0lQRV9RVF9JVEVNKTwjISVAJD4pICogb2JqT2xkTmFtZSAoPCMhJUAkPmdldE5vZGVOYW1lKDcvUmVjb3JkL0lQRV9WUl9VTklUQVJJT19JVEVNKTwjISVAJD4p</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N13</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N13</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{A9F46EE9-57CC-49B9-8094-0CF1FC6A7E3D}</Identifier>
+          <Description />
+          <FieldName>C.BARRAUNITARIA</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSAoIG9iak9sZE5hbWUgKDwjISVAJD5nZXROb2RlTmFtZSg3L1JlY29yZC9JUEVfQ09fQkFSUkFTX1BST0RVVE8pPCMhJUAkPikgKQ==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{17FECE0F-C1D6-4166-A325-E1D7BAE31A33}</Identifier>
+          <FieldName>C.FileName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>250</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{9068831A-F267-41D1-94A3-13F76BBE42B7}</Identifier>
+          <FieldName>C.FolderName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>150</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000009</Identifier>
+          <FieldName>C.HTTP_Body</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>B</MagicFieldType>
+          <MagicPicture />
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Blob</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>2</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{D9958C41-5AD0-487E-B9AC-659380B0DF1D}</Identifier>
+          <FieldName>C.ID_ITENS_ERRO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>200</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{6F30D2F4-8C49-4DBF-BCE7-88B9C90A2864}</Identifier>
+          <FieldName>C.ITEM_ERROR</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>L</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Logical</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{6F0941AB-B5DC-4B2C-994C-0711103434ED}</Identifier>
+          <FieldName>C.NUM_PEDIDO_INICIAL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000007</Identifier>
+          <FieldName>C.UserBlob</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>B</MagicFieldType>
+          <MagicPicture />
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Blob</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>2</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000006</Identifier>
+          <FieldName>C.UserCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000005</Identifier>
+          <FieldName>C.UserString</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000008</Identifier>
+          <FieldName>C.UserXML</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>B</MagicFieldType>
+          <MagicPicture />
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Blob</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>2</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000021</Identifier>
+          <FieldName>C.sys.ContextLogging</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>L</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Logical</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000001</Identifier>
+          <FieldName>C.sys.ErrorCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000002</Identifier>
+          <FieldName>C.sys.ErrorDescription</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000023</Identifier>
+          <FieldName>C.sys.InvokingBPName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000011</Identifier>
+          <FieldName>C.sys.InvokingComponentName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000010</Identifier>
+          <FieldName>C.sys.InvokingFlowName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000015</Identifier>
+          <FieldName>C.sys.LastErrorCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000019</Identifier>
+          <FieldName>C.sys.LastErrorComponentType</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000018</Identifier>
+          <FieldName>C.sys.LastErrorDescription</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000012</Identifier>
+          <FieldName>C.sys.LastErrorFlowName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000014</Identifier>
+          <FieldName>C.sys.LastErrorInfo</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>B</MagicFieldType>
+          <MagicPicture />
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Blob</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>2</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000013</Identifier>
+          <FieldName>C.sys.LastErrorStepName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000017</Identifier>
+          <FieldName>C.sys.LastFlowID</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000016</Identifier>
+          <FieldName>C.sys.LastStepID</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000020</Identifier>
+          <FieldName>C.sys.LastTriggerName</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000003</Identifier>
+          <FieldName>C.sys.RemoteUser</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{A6AEC792-23EE-4379-BC1B-662461CACA59}</Identifier>
+          <FieldName>G.NewOrders</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{41A56BDB-3B3C-423E-A416-1D569E69E306}</Identifier>
+          <FieldName>G.Project_Information</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>500</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{46E16B75-6B14-4BEA-A99B-8C37CCF065AC}</Identifier>
+          <FieldName>G.Reproc_NewOrder</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{E8176AFE-9EFE-4F31-8D82-EE4E5CC9A09D}</Identifier>
+          <FieldName>G.Reproc_Return_Order</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{0BD6EE3D-4D42-425B-B1E1-56AC402A68C6}</Identifier>
+          <FieldName>G.Reproc_UpdateOrderStatus</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{8232A0AE-47DC-4F33-8355-0A56A9687932}</Identifier>
+          <FieldName>G.ReturnOrders</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\{4988833D-0D25-4EE0-9D6E-AFEC854BFF72}</Identifier>
+          <FieldName>G.UpdateOrderStatus</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000022</Identifier>
+          <FieldName>G.sys.ComponentLogging</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>L</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Logical</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldCallFlow">
+          <Identifier>F11\000000000000000000000000000000000000004</Identifier>
+          <FieldName>G.sys.ServerInstance</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N5</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+      </Fields>
+      <CallFlow>
+        <FlowRef>
+          <BPID>5</BPID>
+          <FlowID>
+            <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDExKTwjISVAJD4=</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>O</Direction>
+          </FlowID>
+        </FlowRef>
+      </CallFlow>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>Record</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_CO_BARRAS_PRODUTO</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{A9F46EE9-57CC-49B9-8094-0CF1FC6A7E3D}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_QT_ITEM</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{3639995B-1E9A-4BAF-AB70-DB60FC99A511}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_QT_ITEM</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{8D00DCA6-FFBA-4BBD-AA8C-2AF39A3FB6FD}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_VR_UNITARIO_ITEM</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{8D00DCA6-FFBA-4BBD-AA8C-2AF39A3FB6FD}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_CO_PRODUTO</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{DA3DE005-C52C-4886-A9AB-95DC0E30F290}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_NU_MATERIAL_DEFINIDO</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{32F2C79F-F4BB-4229-A07A-93F828996EF1}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_TX_MATERIAL_COLETADO</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{B1DC544A-9106-4943-BB94-01D6980FED67}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_NU_ITEM</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\{F9B98731-2999-454E-9286-7BD6F1916B97}</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_NO_PRODUTO</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\b5e00ef5-53b4-4383-a42b-8bec80c12966</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_QT_ATENDIDA</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\642d9724-e18a-4e28-879d-4a2c0d05b559</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>Record/IPE_SG_UNIDADE_MEDIDA</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>F11\cf5e6db9-90c0-4fa4-b94c-7989a49fff3f</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas />
+  <DestinationSchemas>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>7</SchemaID>
+      <Order>1</Order>
+      <Name>PEDIDO</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO</Identifier>
+          <Description />
+          <FieldName>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO/STATUS_INTEGRACAO</Identifier>
+          <Description />
+          <FieldName>STATUS_INTEGRACAO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>SUYgKCA8IyElQCQ+Z2V0VmFyTmFtZSgyLCcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTUnLDAsMCk8IyElQCQ+IDw+IDAsICdFJywnSScp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>1</ExternalFieldPicture>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>PED_IN_STATUS_INTEGRACAO</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILOG.VW_PEDIDO/MSG_ERRO</Identifier>
+          <Description />
+          <FieldName>MSG_ERRO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>SUYgKCA8IyElQCQ+Z2V0VmFyTmFtZSgyLCcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTUnLDAsMCk8IyElQCQ+IDw+IDANCiAgICAgLFRyaW0gKFN0ciAoIDwjISVAJD5nZXRWYXJOYW1lKDIsJzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxNScsMCwwKTwjISVAJD4gLCcnKSkgJicgLSAnJiBUcmltICggPCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE4JywwLDApPCMhJUAkPiApDQogICAgICxOVUxMICgpKQ==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>1000</ExternalFieldPicture>
+          <UserPicture>1000</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>PED_TX_ERRO_INTEGRACAO</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>VVBEQVRFICVFQ1RfU0lMVF9TSUxPR19EQl9PV05FUl9TSUxPRyUuVldfUEVESURPDQpTRVQNClBFRF9JTl9TVEFUVVNfSU5URUdSQUNBTz08IT9TVEFUVVNfSU5URUdSQUNBTz8hPiAsDQpQRURfREhfSU5URUdSQUNBTz1TWVNEQVRFICwNClBFRF9UWF9FUlJPX0lOVEVHUkFDQU89PCE/TVNHX0VSUk8/IT4NCldIRVJFIFBFRF9OVV9TRVFVRU5DSUFMID0gPD9GLlBLX1RBQkxFPz4=</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILOG</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName>%ECT_SILT_SILOG_DB_OWNER_SILOG%.VW_PEDIDO
+</GenerateTableName>
+      </DB>
+    </Schema>
+  </DestinationSchemas>
+  <Connections />
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

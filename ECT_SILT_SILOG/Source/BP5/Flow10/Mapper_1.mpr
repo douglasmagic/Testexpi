@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>7</SchemaID>
+      <Order>1</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>7</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{60B64661-685B-43F2-A4CE-A60B9A43C521}</Identifier>
+          <Description />
+          <FieldName>F.CNPJUNIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{8E10095B-7CE2-4F2A-862F-C32A94E102D5}</Identifier>
+          <Description />
+          <FieldName>F.CNPJ_DEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{CE6FEF51-8B98-4193-8CE3-E76EB9DA7D62}</Identifier>
+          <Description />
+          <FieldName>F.DNDMCT</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{E148B19C-C000-410B-BC39-344420C470D8}</Identifier>
+          <Description />
+          <FieldName>F.IMITM</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N18</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{574F1A94-CFEE-4ABA-9DE9-B561962A392C}</Identifier>
+          <Description />
+          <FieldName>F.NUMPEDIDO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{BA7127A8-FFC3-4EE3-B314-55715F0BA564}</Identifier>
+          <Description />
+          <FieldName>F.NU_NF</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N12</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>12</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>99</Encoding>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</Identifier>
+          <Description />
+          <FieldName>F.SEQUENCE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N10</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Numeric</ExternalFieldType>
+          <UserPicture>N10</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>0</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{60B64661-685B-43F2-A4CE-A60B9A43C521}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{8E10095B-7CE2-4F2A-862F-C32A94E102D5}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{CE6FEF51-8B98-4193-8CE3-E76EB9DA7D62}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{E148B19C-C000-410B-BC39-344420C470D8}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{574F1A94-CFEE-4ABA-9DE9-B561962A392C}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{BA7127A8-FFC3-4EE3-B314-55715F0BA564}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="DataBaseSchema">
+      <SchemaID>6</SchemaID>
+      <Order>1</Order>
+      <Name>Silt_Header</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>DataBase</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ</Identifier>
+          <Description />
+          <FieldName>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CODIGOINTERNO</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.CODIGOINTERNO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXROb2RlTmFtZSg3L3s1NzRGMUE5NC1DRkVFLTRBQkEtOURFOS1CNTYxOTYyQTM5MkN9KTwjISVAJD4gLCcnKSk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.CODIGOINTERNO</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CNPJUNIDADE</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.CNPJUNIDADE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbSggPCMhJUAkPmdldE5vZGVOYW1lKDcvezYwQjY0NjYxLTY4NUItNDNGMi1BNENFLUE2MEI5QTQzQzUyMX0pPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.CNPJUNIDADE</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CNPJDEPOSITANTE</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.CNPJDEPOSITANTE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.CNPJDEPOSITANTE</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CNPJTRANSP</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.CNPJTRANSP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnRUNUX1NJTFRfU0lMT0dfQ05QSl9UUkFOUycp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>20</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>20</ExternalFieldPicture>
+          <UserPicture>20</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.CNPJTRANSP</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.ESTADO</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.ESTADO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>J04n</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>1</ExternalFieldPicture>
+          <UserPicture>1</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.ESTADO</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CODSERVICOTRANSP</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.CODSERVICOTRANSP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXROb2RlTmFtZSg3L3tFMTQ4QjE5Qy1DMDAwLTQxMEItQkMzOS0zNDQ0MjBDNDcwRDh9KTwjISVAJD4gLCcnKSk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>60</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>60</ExternalFieldPicture>
+          <UserPicture>60</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.CODSERVICOTRANSP</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.NUMEROCONTRATO</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.NUMEROCONTRATO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXROb2RlTmFtZSg3L3s1NzRGMUE5NC1DRkVFLTRBQkEtOURFOS1CNTYxOTYyQTM5MkN9KTwjISVAJD4gLCcnKSk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>80</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>VARCHAR2</ExternalFieldType>
+          <ExternalFieldPicture>80</ExternalFieldPicture>
+          <UserPicture>80</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>0</StorageSize>
+          <StorageNum>3</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.NUMEROCONTRATO</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.AGRUPADOR</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.AGRUPADOR</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>22</ExternalFieldPicture>
+          <UserPicture>N18</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.AGRUPADOR</GenerateColumnName>
+        </Field>
+        <Field xsi:type="FieldDataBase">
+          <Identifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.IDDOCUMENTOERP</Identifier>
+          <Description />
+          <FieldName>INT_PEDIDO_RETORNO_AMZ.IDDOCUMENTOERP</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>N18</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>NUMBER</ExternalFieldType>
+          <ExternalFieldPicture>22</ExternalFieldPicture>
+          <UserPicture>N18</UserPicture>
+          <isNillable>true</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <LogError>false</LogError>
+          <isDateTime>false</isDateTime>
+          <StorageSize>8</StorageSize>
+          <StorageNum>6</StorageNum>
+          <SpecialUniCode>false</SpecialUniCode>
+          <GenerateColumnName>INT_PEDIDO_RETORNO_AMZ.IDDOCUMENTOERP</GenerateColumnName>
+        </Field>
+      </Fields>
+      <DB>
+        <SQLStatement>
+          <ExpressionVal>SU5TRVJUIElOVE8gJUVDVF9TSUxUX1NJTE9HX0RCX09XTkVSX1NJTFQlLklOVF9QRURJRE9fUkVUT1JOT19BTVogICAoICBJTlRfUEVESURPX1JFVE9STk9fQU1aLkNPRElHT0lOVEVSTk8gLCAgSU5UX1BFRElET19SRVRPUk5PX0FNWi5DTlBKVU5JREFERSAsICBJTlRfUEVESURPX1JFVE9STk9fQU1aLkNOUEpERVBPU0lUQU5URSAsICBJTlRfUEVESURPX1JFVE9STk9fQU1aLkNOUEpUUkFOU1AsICAgSU5UX1BFRElET19SRVRPUk5PX0FNWi5FU1RBRE8sICBJTlRfUEVESURPX1JFVE9STk9fQU1aLkNPRFNFUlZJQ09UUkFOU1AsICBJTlRfUEVESURPX1JFVE9STk9fQU1aLk5VTUVST0NPTlRSQVRPLCBJTlRfUEVESURPX1JFVE9STk9fQU1aLkFHUlVQQURPUiwNCiBJTlRfUEVESURPX1JFVE9STk9fQU1aLklERE9DVU1FTlRPRVJQICk=</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </SQLStatement>
+        <DynamicSQL>false</DynamicSQL>
+        <DBResource>SILT</DBResource>
+        <Disconnect>false</Disconnect>
+        <ExceptionflowInfo>
+          <BPID>0</BPID>
+          <FlowID>
+            <ExpectedType />
+            <Direction>O</Direction>
+          </FlowID>
+        </ExceptionflowInfo>
+        <GenerateTableName>%ECT_SILT_SILOG_DB_OWNER_SILT%.INT_PEDIDO_RETORNO_AMZ</GenerateTableName>
+      </DB>
+    </Schema>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>8</SchemaID>
+      <Order>0</Order>
+      <Name>Variable_1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>8</Identifier>
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</Identifier>
+          <FieldName>C.LastSQL</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>R2V0UGFyYW0gKCdJQl9TcWxTdG10Jyk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>32000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>32000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>3be7e3ec-61fb-41af-97e9-07d523ffd2fe</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>7</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{574F1A94-CFEE-4ABA-9DE9-B561962A392C}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CODIGOINTERNO</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{574F1A94-CFEE-4ABA-9DE9-B561962A392C}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.NUMEROCONTRATO</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{574F1A94-CFEE-4ABA-9DE9-B561962A392C}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.IDDOCUMENTOERP</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{60B64661-685B-43F2-A4CE-A60B9A43C521}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CNPJUNIDADE</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{8E10095B-7CE2-4F2A-862F-C32A94E102D5}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CNPJDEPOSITANTE</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{E148B19C-C000-410B-BC39-344420C470D8}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.CODSERVICOTRANSP</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>{681BE6C3-F374-44D4-9A14-2F56039B53A1}</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>ECT_SILT_SILOG_DB_OWNER_SILT.INT_PEDIDO_RETORNO_AMZ/INT_PEDIDO_RETORNO_AMZ.AGRUPADOR</DestinationIdentifier>
+      <DestinationSchemaID>6</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>
