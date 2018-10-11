@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BP>
+  <ID>4</ID>
+  <Name>Management</Name>
+  <FlowsSortOrder>3,1,2,4,24,25,26</FlowsSortOrder>
+  <Properties>
+    <ID>4</ID>
+    <Order>4</Order>
+    <Name>Management</Name>
+    <Description />
+  </Properties>
+</BP>

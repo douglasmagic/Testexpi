@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+		
+		<SourceSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>S1</Name>
+				<SchemaLocation>Source</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>Envelope</Identifier>
+							<Description></Description>
+							<FieldName>Envelope</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>Envelope/Body</Identifier>
+							<Description></Description>
+							<FieldName>Body</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>Envelope/Body/consultaClientePorContratoResponse</Identifier>
+							<Description></Description>
+							<FieldName>consultaClientePorContratoResponse</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>Envelope/Body/consultaClientePorContratoResponse/cliente</Identifier>
+							<Description></Description>
+							<FieldName>cliente</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>Envelope/Body/consultaClientePorContratoResponse/cliente/cnpj</Identifier>
+							<Description></Description>
+							<FieldName>cnpj</FieldName>
+							<NodeType>Attribute</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>Envelope/Fault</Identifier>
+							<Description></Description>
+							<FieldName>Fault</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >soapenv</NameSpacePrefix>
+								<NameSpace>http://schemas.xmlsoap.org/soap/envelope/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>Envelope/Fault/faultcode</Identifier>
+							<Description></Description>
+							<FieldName>faultcode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>true</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>Envelope/Fault/faultstring</Identifier>
+							<Description></Description>
+							<FieldName>faultstring</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>true</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel></IFCModel>
+					<XsdFileName>XSD\Query_Contrato_1.xsd</XsdFileName>
+					<RootSelected>Envelope</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezdBRDk3NUYzLTdGQjYtNEU5Qi05NzM3LTM5MEIyOTc4OTVCQ30nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>I</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace>http://schemas.xmlsoap.org/soap/envelope/</TargetNamespace>
+											<NameSpaces>
+																								<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>soapenv</Alias>
+										<NS>ns0</NS>
+										<NSVector>http://schemas.xmlsoap.org/soap/envelope/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>ser</Alias>
+										<NS>ns1</NS>
+										<NSVector>http://service.clientecontrato.correios.com.br/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>xs</Alias>
+										<NS>ns2</NS>
+										<NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+									</XSDNameSpace>
+																					</NameSpaces>
+																			</XSD>
+																					
+										
+															</Schema>
+		
+				
+		
+		</SourceSchemas>
+				<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="VariableSchema">
+		<SchemaID>4</SchemaID>
+		<Order>1</Order>
+		<Name>D1</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>Variable</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>4</Identifier>
+							<Description></Description>
+							<FieldName>Instance</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>000000000000000000000000000000000000015</Identifier>
+							<Description></Description>
+							<FieldName>C.sys.LastErrorCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N12</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VmFsKFRyaW0oIG9iak9sZE5hbWUoPCMhJUAkPmdldE5vZGVOYW1lKDMvRW52ZWxvcGUvRmF1bHQvZmF1bHRjb2RlKTwjISVAJD4pICksJzUnKQ==</ExpressionVal>
+								<ExpectedType>N</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>N12</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>000000000000000000000000000000000000018</Identifier>
+							<Description></Description>
+							<FieldName>C.sys.LastErrorDescription</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggb2JqT2xkTmFtZSg8IyElQCQ+Z2V0Tm9kZU5hbWUoMy9FbnZlbG9wZS9GYXVsdC9mYXVsdHN0cmluZyk8IyElQCQ+KSAp</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>{AA8762FF-6307-4659-9DA3-22D5BAF0091C}</Identifier>
+							<Description></Description>
+							<FieldName>F.CNPJ_CONTRATO</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>20</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>UmVwU3RyKElGKCBMZW4oIFRyaW0oIG9iak9sZE5hbWUoPCMhJUAkPmdldE5vZGVOYW1lKDMvRW52ZWxvcGUvQm9keS9jb25zdWx0YUNsaWVudGVQb3JDb250cmF0b1Jlc3BvbnNlL2NsaWVudGUvY25waik8IyElQCQ+KSApICkgPD0gMTEsIEFTdHIoIFRyaW0oIA0KIG9iak9sZE5hbWUoPCMhJUAkPmdldE5vZGVOYW1lKDMvRW52ZWxvcGUvQm9keS9jb25zdWx0YUNsaWVudGVQb3JDb250cmF0b1Jlc3BvbnNlL2NsaWVudGUvY25waik8IyElQCQ+KSApLCAnIyNcLiMjI1wuIyMjXC0jIycgKSwgQVN0ciggDQogb2JqT2xkTmFtZSg8IyElQCQ+Z2V0Tm9kZU5hbWUoMy9FbnZlbG9wZS9Cb2R5L2NvbnN1bHRhQ2xpZW50ZVBvckNvbnRyYXRvUmVzcG9uc2UvY2xpZW50ZS9jbnBqKTwjISVAJD4pICwgJyMjXC4jIyNcLiMjI1wvIyMjI1wtIyMnICkgKSwgJyAnLCAnMCcgKQ==</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>20</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																									<Variables>
+				<Variables>
+																		<Variable>
+								<VarGUID>000000000000000000000000000000000000015</VarGUID>
+							</Variable>
+																								<Variable>
+								<VarGUID>000000000000000000000000000000000000018</VarGUID>
+							</Variable>
+																								<Variable>
+								<VarGUID>{AA8762FF-6307-4659-9DA3-22D5BAF0091C}</VarGUID>
+							</Variable>
+															</Variables>
+			</Variables>	
+														
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+														<ConnectionData>
+						<SourceIdentifier>Envelope</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>4</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Envelope/Fault/faultcode</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>000000000000000000000000000000000000015</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Envelope/Fault/faultstring</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>000000000000000000000000000000000000018</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Envelope/Body/consultaClientePorContratoResponse/cliente/cnpj</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>{AA8762FF-6307-4659-9DA3-22D5BAF0091C}</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+												</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

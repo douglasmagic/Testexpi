@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PSSRepository>
+							<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{D422D753-A168-4DC2-8435-66EE75545F63}</GUID>
+				<ID>1</ID>
+				<Order>1</Order>
+				<Name>P.QUERY_NEW_ORDERS</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  								<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{2B3D4CFB-E3AB-4E7E-A8FD-A5CD4790DFB7}</GUID>
+				<ID>2</ID>
+				<Order>2</Order>
+				<Name>P.RETURN_ORDER</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  								<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{504E5BF9-D0E1-4AEA-B3F0-70F278544535}</GUID>
+				<ID>3</ID>
+				<Order>3</Order>
+				<Name>P.UPDATE_ORDER_STATUS</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  								<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{A4102122-E2D8-48BE-A441-5C87232E3B04}</GUID>
+				<ID>4</ID>
+				<Order>4</Order>
+				<Name>P.REPROC_QUERY_NEW_ORDERS</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  								<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{1A42605F-3D2A-46C0-B2E8-9C641515EA35}</GUID>
+				<ID>5</ID>
+				<Order>5</Order>
+				<Name>P.REPROC_RETURN_ORDER</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  								<PSS d2p1:type="PSSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>{7F597FEF-12C6-46E8-AF8A-1676AC4B15D9}</GUID>
+				<ID>6</ID>
+				<Order>6</Order>
+				<Name>P.REPROC_UPDATE_ORDER_STATUS</Name>								
+								<IsNameIncompatible>false</IsNameIncompatible>
+			</PSS>
+	  				</PSSRepository>

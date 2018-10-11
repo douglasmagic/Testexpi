@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>2</ID>
+    <Order>3</Order>
+    <Name>Success Log</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Success Log</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+</Flow>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+		
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="FlatFileSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>Error_Log</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>FlatFile</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>3</Identifier>
+							<Description></Description>
+							<FieldName>Record</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>E03B9DE8-5706-499B-B900-1CB17921B417</Identifier>
+							<Description></Description>
+							<FieldName>Time</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>T</MagicFieldType>
+							<MagicPicture>HH:MM:SS</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VGltZSAoKQ==</ExpressionVal>
+								<ExpectedType>T</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Time</ExternalFieldType>
+																					<UserPicture>HH:MM:SS</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>EC5BF477-718B-4AAA-A93F-0FDA1AE77360</Identifier>
+							<Description></Description>
+							<FieldName>Error_Flow</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>60</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEyJywwLDApPCMhJUAkPiAp</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>60</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>330FF974-3B1C-4725-A2E5-27BF9E544818</Identifier>
+							<Description></Description>
+							<FieldName>Error_Step</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>60</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEzJywwLDApPCMhJUAkPiAp</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>60</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>84D3EE3A-1BF7-4C30-96B5-F9D700B8D550</Identifier>
+							<Description></Description>
+							<FieldName>ErrorCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>12</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE1JywwLDApPCMhJUAkPg==</ExpressionVal>
+								<ExpectedType>N</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Numeric</ExternalFieldType>
+																					<UserPicture>12</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>51B6A757-FEA9-46A5-9A33-E5621C1310C4</Identifier>
+							<Description></Description>
+							<FieldName>Error_Description</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>3000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE4JywwLDApPCMhJUAkPiAp</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>3000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>DE35EF4B-E96D-4FB4-95A0-409094F5FE1C</Identifier>
+							<Description></Description>
+							<FieldName>ErrorInfo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE0JywwLDApPCMhJUAkPiAp</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>32000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																	<FF>
+					<ExampleFile></ExampleFile>
+					<DataDestination>File</DataDestination>
+					<DataExp>
+						<ExpressionVal>RW52VmFsICgnY3VycmVudHByb2plY3RkaXInKSYnTE9HU1xFUlJPUlxMb2dFcnJvcl8nJkRTdHIgKERhdGUgKCksJ1lZWVlfTU1fREQnKSYnLlRYVCc=</ExpressionVal>
+						<ExpectedType>A</ExpectedType>
+						<Direction>I</Direction>
+					</DataExp>
+					<isUnicode>false</isUnicode>
+					<isAppend>true</isAppend>
+					<Delimited_Posi>Delimited</Delimited_Posi>
+					<Delimeter>;</Delimeter>
+										<IncludeDelimiterInData>false</IncludeDelimiterInData>
+					<Prefix></Prefix>
+					<CreateTitles>false</CreateTitles>
+					<DataEncoding>Ansi</DataEncoding>
+											<FF_Lines>
+																								<FF_Line>
+										<Order>1</Order>
+										<GUID>E03B9DE8-5706-499B-B900-1CB17921B417</GUID>
+										<Type>T</Type>
+										<Name>Time</Name>
+										<Picture>HH:MM:SS</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>2</Order>
+										<GUID>EC5BF477-718B-4AAA-A93F-0FDA1AE77360</GUID>
+										<Type>A</Type>
+										<Name>Error_Flow</Name>
+										<Picture>60</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>3</Order>
+										<GUID>330FF974-3B1C-4725-A2E5-27BF9E544818</GUID>
+										<Type>A</Type>
+										<Name>Error_Step</Name>
+										<Picture>60</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>4</Order>
+										<GUID>84D3EE3A-1BF7-4C30-96B5-F9D700B8D550</GUID>
+										<Type>N</Type>
+										<Name>ErrorCode</Name>
+										<Picture>12</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>5</Order>
+										<GUID>51B6A757-FEA9-46A5-9A33-E5621C1310C4</GUID>
+										<Type>A</Type>
+										<Name>Error_Description</Name>
+										<Picture>3000</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>6</Order>
+										<GUID>DE35EF4B-E96D-4FB4-95A0-409094F5FE1C</GUID>
+										<Type>A</Type>
+										<Name>ErrorInfo</Name>
+										<Picture>32000</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																					</FF_Lines>
+									</FF>
+																												
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

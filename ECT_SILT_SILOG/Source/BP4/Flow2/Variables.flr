@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{B3394E63-B54E-42F9-9112-9B8B6E68BFA3}</GUID>
+			<ID>1</ID>
+			<Order>264</Order>
+			<Name>F.Process</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>50</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{22252F92-E12D-4019-93C3-59189DCC4754}</GUID>
+			<ID>2</ID>
+			<Order>265</Order>
+			<Name>F.Order_Num</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>20</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{3FAD4C0B-E518-4519-96D6-56458B1BAA7D}</GUID>
+			<ID>3</ID>
+			<Order>266</Order>
+			<Name>F.MSG</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>50</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

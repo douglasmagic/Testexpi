@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+		
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>Contract</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>soapenv:Envelope</Identifier>
+							<Description></Description>
+							<FieldName>Envelope</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >soapenv</NameSpacePrefix>
+								<NameSpace>http://schemas.xmlsoap.org/soap/envelope/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>soapenv:Envelope/soapenv:Body</Identifier>
+							<Description></Description>
+							<FieldName>Body</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >soapenv</NameSpacePrefix>
+								<NameSpace>http://schemas.xmlsoap.org/soap/envelope/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>soapenv:Envelope/soapenv:Body/ser:consultaClientePorContrato</Identifier>
+							<Description></Description>
+							<FieldName>consultaClientePorContrato</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >ser</NameSpacePrefix>
+								<NameSpace>http://service.clientecontrato.correios.com.br/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>soapenv:Envelope/soapenv:Body/ser:consultaClientePorContrato/ser:numeroContrato</Identifier>
+							<Description></Description>
+							<FieldName>numeroContrato</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMSwnezAxOEUwRjIwLUJGOTUtNDRFOS05QTlGLUI3ODI5QzFCQUI5NX0nLDAsMCk8IyElQCQ+ICk=</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >ser</NameSpacePrefix>
+								<NameSpace>http://service.clientecontrato.correios.com.br/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>soapenv:Envelope/soapenv:Body/ser:consultaClientePorContrato/ser:DR</Identifier>
+							<Description></Description>
+							<FieldName>DR</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>VHJpbShTdHIoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3syOTdBM0YxMC1ENzdDLTQ1NTAtQjRCNi0xNjMyODRGNkZBMzV9JywwLDApPCMhJUAkPiAsJycpKQ==</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+															<NameSpacePrefix >ser</NameSpacePrefix>
+								<NameSpace>http://service.clientecontrato.correios.com.br/</NameSpace>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel></IFCModel>
+					<XsdFileName>XSD\SendContratos1.xsd</XsdFileName>
+					<RootSelected>Envelope</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>true</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezlDNkYxRkY1LTNGMzQtNDA4OC04RkE4LTdFQjBERUVEOUEyN30nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>O</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace>http://schemas.xmlsoap.org/soap/envelope/</TargetNamespace>
+											<NameSpaces>
+																								<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>soapenv</Alias>
+										<NS>ns0</NS>
+										<NSVector>http://schemas.xmlsoap.org/soap/envelope/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>ser</Alias>
+										<NS>ns1</NS>
+										<NSVector>http://service.clientecontrato.correios.com.br/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>xs</Alias>
+										<NS>ns2</NS>
+										<NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+									</XSDNameSpace>
+																					</NameSpaces>
+																			</XSD>
+																					
+										
+										</Schema>
+		
+				
+		<Schema xsi:type="TemplateSchema">
+		<SchemaID>5</SchemaID>
+		<Order>2</Order>
+		<Name>UN</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>Template</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>Root</Identifier>
+							<Description></Description>
+							<FieldName>Root</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>79228162514264337593543950335</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="FieldTemplate">
+							<Identifier>Root/COD_UN</Identifier>
+							<Description></Description>
+							<FieldName>COD_UN</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezIyODhDNTUyLUVDMEUtNDJFMC1CNEI1LTg0RjI5RDI3QjA2N30nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																																	
+										
+									<Template>
+					<TplFile>XSD\Consulta_CODUN.tmp</TplFile>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0REOUVDQkRCLTBDMzItNEFGRC1BNTE3LUE1RDZCQkYxMjBDOX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>O</Direction>
+					</DataExp>
+					<isUnicode>false</isUnicode>
+					<Append>true</Append>
+				</Template>
+													</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>
